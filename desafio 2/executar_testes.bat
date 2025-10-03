@@ -4,11 +4,17 @@ echo   Executando testes BDD do DemoQA
 echo ========================================
 echo.
 
-REM Ativar ambiente virtual se existir
-if exist "venv\Scripts\activate.bat" (
-    echo Ativando ambiente virtual...
-    call venv\Scripts\activate.bat
+REM Criar ambiente virtual se não existir
+if not exist "venv" (
+    echo Criando ambiente virtual...
+    python -m venv venv
+    echo.
 )
+
+REM Ativar ambiente virtual
+echo Ativando ambiente virtual...
+call venv\Scripts\activate.bat
+echo.
 
 echo Instalando dependencias...
 pip install -r requirements.txt

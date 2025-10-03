@@ -1,0 +1,43 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.pyc
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Behave
+reports/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Test artifacts
+*.xml
+allure-results/
+allure-report/
+
+# Geckodriver
+geckodriver.log
+
+# Temporary files
+*.tmp
+*.bak
+txtteste.txt
+
