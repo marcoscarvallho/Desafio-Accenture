@@ -1,0 +1,4 @@
+Este é um arquivo de teste para upload no formulário.
+Contém texto simples para demonstrar a funcionalidade de upload.
+Data de criação: 2025
+Propósito: Teste de automação com Selenium
